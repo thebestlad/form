@@ -1,0 +1,66 @@
+body{
+    background-color: #FDEDEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.big{
+    background-color: transparent;
+    height: 500px;
+    width: 50%;
+    filter: drop-shadow(2px 2px 7px rgb(146, 140, 140));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.innera1{
+background-color: white;
+height: 100%;
+width: 50%;
+}
+.innera2{
+    background-image: linear-gradient(to right, tomato, rgb(228, 105, 105));
+height: 100%;
+width: 50%;
+}
+#f{
+font-size: 30px;
+}
+
+#t{
+font-size: 30px;
+}
+.email{
+background-color: rgb(212, 211, 211);
+border: none;
+height: 30px;
+padding: 7px;
+width: 180px;
+}
+
+.pass{
+    background-color: rgb(212, 211, 211);
+    border: none;
+    height: 30px;
+    padding: 7px;
+    width: 180px;
+}
+.mybtn{
+    border-radius: 30px;
+    background-color: orangered;
+    border: none;
+    height: 30px;
+    color: white;
+    width: 130px;
+}
+
+@media screen and (max-width: 600px){
+.innera2{
+display: none;
+}
+.innera1{
+    width: 990px;
+}
+}
